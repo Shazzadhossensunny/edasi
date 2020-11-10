@@ -1,0 +1,348 @@
+*{
+	margin: 0;
+	padding: 0;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+/*#loader{
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: #051626!important;
+	z-index: 1000000000;
+	opacity: 1;
+	overflow: hidden;
+	text-align: center;
+}
+.one{
+	width: 8vmax;
+	height: 8vmax;
+	border-right: 4px solid white;
+	border-radius: 100%;
+	animation: spinRight 800ms linear infinite;
+}
+.one:before,
+.one:after{
+	content: '';
+	width: 6vmax;
+	height: 6vmax;
+	display: block;
+	position: absolute;
+	top: calc(50% - 3vmax);
+	left: calc(50% - 3vmax);
+	border-left: 3px solid white;
+	border-radius: 100%;
+	animation: spinLeft 800ms linear infinite;
+}
+.one:after{
+	width: 4vmax;
+	height: 4vmax;
+	top: calc(50% - 2vmax);
+	left: calc(50% - 2vmax);
+	border: 0;
+	border-right: 2px solid white;
+	animation: none;
+}
+
+@keyframes spinRight{
+	from{
+		
+	transform: rotate(360deg);
+	}
+	to{
+		
+	transform: rotate(0deg);
+	}
+}
+
+.center{
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+*/
+/**********************************************
+      Global Css
+*********************************************/
+header{
+	padding: 20px 0;
+}
+.navbar {
+    padding: 0;
+}
+
+
+/*banner*/
+.banner-section {
+    background: url(../img/banner.png) center top no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    background-color: #0000007d!important;
+    background-blend-mode: overlay;
+}
+.banner-content {
+    text-align: center;
+    height: 477px;
+    max-width: 40%;
+    background: rgba(255,255,255,.50);
+    position: relative;
+    left: 31%;
+    padding: 60px;
+}
+.banner-content h2{
+    font-size: 29px;
+    color: #000;
+    font-weight: 600;
+    line-height: 45px;
+}
+
+.banner-content p{
+	font-size: 16px;
+	line-height: 28px;
+	font-weight: 500;
+	margin: 0;
+}
+.banner-content h3{
+
+font-size: 25px;
+
+font-weight: 600;
+
+margin: 10px 0 30px;
+}
+.banner-content span{
+    text-decoration: line-through;
+}
+
+.banner-content .btn{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: capitalize;
+    background-color: #000;
+    border:1px solid #000;
+    border-radius: 0;
+    padding: 12px 20px;
+    transition: 0.3s;
+}
+.banner-content .btn:hover{
+    color: #000;
+    background: #fff;
+    
+}
+/*banner*/
+
+/*service-section*/
+.service-section{
+    padding: 50px 0;
+    text-align: center;
+}
+.inner-service{
+    max-width: 60%;
+    margin: 0 auto;
+}
+.bor{
+	border-top: 2px solid #262626;
+	border-bottom: 2px solid #262626;
+
+
+}
+.inner-service p{
+	font-size: 16px;
+	line-height: 26px;
+	margin: 0;
+	font-weight: 500;
+	padding: 15px;
+}
+
+/*service-section*/
+
+/*design-section*/
+.design-section{
+	padding: 50px 0;
+}
+.design-section .card {
+    border: 0;
+    border-radius: 0;
+    padding: 10px;
+    text-align: center;
+}
+.design-section .card .card-title {
+    font-size: 22px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    margin: 20px 0 30px;
+}
+.design-section .card .card-body span {
+    max-width: 20%;
+    height: 2px;
+    background: #262626;
+    display: block;
+    margin: auto;
+}
+.design-section .card-text:last-child {
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 30px;
+}
+
+/*design-section*/
+
+/*feature-section*/
+.feature-section{
+    padding: 50px 0;
+}
+
+.section-img{
+    max-width: 100%;
+}
+.feature-title{
+    max-width: 100%;
+    text-align: left;
+    margin-top: 95px;
+}
+.feature-title h1{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 26px;
+}
+.feature-title ul{
+    margin-top: 40px;
+    padding: 0;
+}
+.feature-title li{
+    font-size: 20px;
+    padding: 10px 0;
+}
+.feature-title li i{
+    margin-right: 20px;
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+}
+
+/*feature-section*/
+/*safe-section*/
+
+.safe-section{
+    padding: 75px 0;
+    text-align: center;
+}
+.inner-safe{
+    max-width: 66%;
+    margin: 0 auto;
+    padding: 35px;
+}
+.safe-section .bor{
+	border-top: 2px solid #262626;
+	border-bottom: 2px solid #262626;
+
+
+}
+.inner-safe p{
+	font-size: 16px;
+	line-height: 26px;
+	margin: 0;
+	font-weight: 500;
+	padding: 15px;
+}
+/*safe-section*/
+/*pocket-section*/
+.pocket-section{
+	padding: 50px 0;
+}
+.pocket-section .card {
+    border: 0;
+    border-radius: 0;
+    padding: 10px;
+    text-align: center
+}
+.pocket-section .card .card-title {
+    font-size: 22px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    margin: 20px 0 30px;
+}
+.pocket-section .card .card-body span {
+    max-width: 20%;
+    height: 2px;
+    background: #262626;
+    display: block;
+    margin: auto;
+}
+.pocket-section .card-text:last-child {
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 30px;
+}
+/*pocket-section*/
+/*footer section*/
+footer{
+    text-align: center;
+    padding: 50px 0;
+}
+.inner-footer{
+	max-width: 100%;
+}
+.inner-footer span{
+    max-width: 50%;
+    height: 2px;
+    background: #262626;
+    display: block;
+    margin: auto;
+}
+.inner-footer h1{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+    margin: 50px 0 30px;
+}
+.inner-footer h6{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.inner-footer .btn{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: capitalize;
+    background-color: #000;
+    border:1px solid #000;
+    border-radius: 0;
+    padding: 12px 20px;
+    transition: 0.3s;
+}
+.inner-footer .btn:hover{
+    color: #000;
+    background: #fff;
+    
+}
+.inner-footer aside{
+    font-size: 14px;
+    margin-top: 50px;
+}
+/*footer section*/
+
+
+
+
+
