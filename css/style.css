@@ -95,6 +95,7 @@ header{
     padding: 100px 0;
     background-color: #0000007d!important;
     background-blend-mode: overlay;
+    background-attachment: fixed;
 }
 .banner-content {
     text-align: center;
@@ -180,8 +181,17 @@ margin: 10px 0 30px;
 .design-section .card {
     border: 0;
     border-radius: 0;
-    padding: 10px;
     text-align: center;
+    margin: 0 20px;
+}
+.inner{
+	overflow: hidden;
+}
+.inner img{
+	transition: all 2s ease;
+}
+.inner:hover img{
+	transform: scale(1.2);
 }
 .design-section .card .card-title {
     font-size: 22px;
@@ -231,12 +241,26 @@ margin: 10px 0 30px;
     font-size: 20px;
     padding: 10px 0;
 }
-.feature-title li i{
+.feature-title li i {
     margin-right: 20px;
     font-size: 20px;
-    width: 20px;
-    height: 20px;
-    line-height: 20px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: #00000061;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    animation: spin 9s linear infinite;
+}
+
+@keyframes spin{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg);
+	}
 }
 
 /*feature-section*/
@@ -272,9 +296,11 @@ margin: 10px 0 30px;
 .pocket-section .card {
     border: 0;
     border-radius: 0;
-    padding: 10px;
-    text-align: center
+    text-align: center;
+    margin: 0 20px;
+
 }
+
 .pocket-section .card .card-title {
     font-size: 22px;
     letter-spacing: 3px;

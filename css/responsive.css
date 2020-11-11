@@ -4,7 +4,7 @@
 
 @media (min-width: 1281px) {
    .feature-title {
-    margin-top: 55px;
+    margin-top: 25px;
 }
 
 .feature-title ul {
@@ -47,7 +47,7 @@
 }
 .feature-title {
     margin-top: 0px;
-    padding: 25px 80px;
+    padding: 0 80px;
 }
 .feature-title ul {
     margin-top: 25px;
@@ -55,6 +55,7 @@
 }
 .feature-title li {
     padding: 7px 0;
+    font-size: 19px
 }
 .feature-title li i {
     margin-right: 16px;
