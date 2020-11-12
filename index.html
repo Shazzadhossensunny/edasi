@@ -17,13 +17,22 @@
     <title>edasi Technical Denims</title>
   </head>
   <body>
-       <div id="loader">
+       <!-- <div id="loader">
          <div class="center">
            <div class="one">
              
            </div>
          </div>
-       </div>
+       </div> -->
+       <!-- Preloader -->
+      <div class="spinner-wrapper">
+            <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </div>
+    <!-- end of preloader -->
       <!-- header -->
       <header class="sticky-top">
         <nav class="navbar">
@@ -227,6 +236,18 @@
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
    <script>
       new WOW().init();
+    </script>
+    <script>
+      $(window).on('load', function() {
+    var preloaderFadeOutTime = 500;
+    function hidePreloader() {
+      var preloader = $('.spinner-wrapper');
+      setTimeout(function() {
+        preloader.fadeOut(preloaderFadeOutTime);
+      }, 500);
+    }
+    hidePreloader();
+  });
     </script>
     
   </body>
